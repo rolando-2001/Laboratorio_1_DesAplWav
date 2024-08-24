@@ -1,0 +1,15 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "tarea01",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rolando",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    .menu {
+        display: flex;
+        justify-content: space-evenly !important;
+
+    }
+
+    .menu-data {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menu-data li {
+        list-style: none;
+    }
+
+    .menu-data li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav {
+        padding: 1rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .data {
+        display: flex;
+        gap: 2rem;
+
+    }
+</style>
+
+<body>
+    <nav class="bg-primary">
+        <div class="menu">
+            <a href=""><i class="fas fa-home fa-2x"></i> </a>
+            <ul class="menu-data">
+                <li><a href="/"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="/about"><i class="fas fa-users"></i> Nosotros</a></li>
+                <li><a href="#"><i class="fas fa-concierge-bell"></i> Servicios</a></li>
+                <li><a href="#"><i class="fas fa-box"></i> Productos</a></li>
+                <li><a href="#"><i class="fas fa-tag"></i> Marca</a></li>
+                <li><a href="#"><i class="fas fa-users-cog"></i> Equipo</a></li>
+                <li><a href="/contact"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h3>Inicio</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-12 data">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://yamoshi.com.pe/26784-large_default/case-450w-halion-mercury-2107-rgb-black.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">CASE 450W HALION MERCURY 2107 RGB BLACK</p>
+                        <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://yamoshi.com.pe/26050-home_default/case-550w-gamemax-shadow-g561-f-ge550w-red.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <p class="card-text">CASE DEEPCOOL MATREXX 50 ADD-RGB 4F BLACK</p>
+                        <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://yamoshi.com.pe/26916-home_default/case-deepcool-matrexx-50-add-rgb-4f-black.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <p class="card-text">CASE DEEPCOOL MATREXX 55 V3 RGB BLACK.</p>
+                        <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
